@@ -1,0 +1,24 @@
+{
+    "name": "custum",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "webpack": "^5.59.1",
+        "webpack-cli": "^4.9.1"
+    },
+    "scripts": {
+        "build": "webpack --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://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@github.com/iDaveni/Custum-.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/iDaveni/Custum-/issues"
+    },
+    "homepage": "https://github.com/iDaveni/Custum-#readme"
+}
