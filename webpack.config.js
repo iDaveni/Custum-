@@ -10,6 +10,11 @@ module.exports = {
         path: path.resolve(__dirname, 'publick/dist'),
         filename: 'bandle.js',
     },
+    devServer: {
+        static: {
+            directory: path.join(__dirname, 'public'),
+        },
+    },
     mode: "development",
     module: {
         rules: [{
@@ -23,4 +28,5 @@ module.exports = {
         ]
 
     }
+
 };
