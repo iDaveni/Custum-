@@ -1,5 +1,6 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
     plugins: [
@@ -14,6 +15,11 @@ module.exports = {
         static: {
             directory: path.join(__dirname, 'public'),
         },
+    },
+    optimization: {
+        emitOnErrors: true,
+        minimize: true,
+        minimizer: [new TerserPlugin()],
     },
     mode: "development",
     module: {
