@@ -8,13 +8,16 @@ module.exports = {
     ],
     entry: path.resolve(__dirname, 'src/index.js'),
     output: {
-        path: path.resolve(__dirname, 'publick/dist'),
+        path: path.resolve(__dirname, 'public/dist'),
         filename: 'bandle.js',
     },
     devServer: {
         static: {
             directory: path.join(__dirname, 'public'),
+
         },
+        open: true,
+
     },
     optimization: {
         emitOnErrors: true,
