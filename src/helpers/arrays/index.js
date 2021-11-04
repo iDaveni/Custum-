@@ -21,7 +21,6 @@ function getEven() {
 }
 
 
-
 function arraySum(array) {
     let sum = 0;
     for (let i = 0; i < array.length; i++) {

@@ -6,9 +6,10 @@ module.exports = {
     plugins: [
         new MiniCssExtractPlugin(),
     ],
+    
     entry: path.resolve(__dirname, 'src/index.js'),
     output: {
-        path: path.resolve(__dirname, 'public/dist'),
+        path: path.resolve(__dirname, 'public'),
         filename: 'bandle.js',
     },
     devServer: {
@@ -33,6 +34,10 @@ module.exports = {
             {
                 test: /\.scss$/i,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', "sass-loader"]
+            },
+            {
+                test: /\.svg$/,
+                use: ['@svgr/webpack'],
             }
         ]
 
