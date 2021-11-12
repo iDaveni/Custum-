@@ -1,46 +1,48 @@
-const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const path = require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
-    plugins: [
-        new MiniCssExtractPlugin(),
+  plugins: [new MiniCssExtractPlugin()],
+
+  entry: path.resolve(__dirname, "src/index.js"),
+  output: {
+    path: path.resolve(__dirname, "public"),
+    filename: "bandle.js",
+  },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "public"),
+    },
+    open: true,
+  },
+
+  optimization: {
+    emitOnErrors: true,
+    minimize: true,
+    minimizer: [new TerserPlugin()],
+  },
+  mode: "development",
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        use: ["babel-loader"],
+      },
+      {
+        test: /\.scss$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+      },
+      {
+        test: /\.svg$/,
+        use: ["@svgr/webpack"],
+      },
     ],
-    
-    entry: path.resolve(__dirname, 'src/index.js'),
-    output: {
-        path: path.resolve(__dirname, 'public'),
-        filename: 'bandle.js',
+  },
+  resolve: {
+    alias: {
+      components: path.resolve(__dirname, "src/components"),
+      hoc: path.resolve(__dirname, "src/HOC"),
     },
-    devServer: {
-        static: {
-            directory: path.join(__dirname, 'public'),
-
-        },
-        open: true,
-
-    },
-    optimization: {
-        emitOnErrors: true,
-        minimize: true,
-        minimizer: [new TerserPlugin()],
-    },
-    mode: "development",
-    module: {
-        rules: [{
-                test: /\.js$/,
-                use: ["babel-loader"]
-            },
-            {
-                test: /\.scss$/i,
-                use: [MiniCssExtractPlugin.loader, 'css-loader', "sass-loader"]
-            },
-            {
-                test: /\.svg$/,
-                use: ['@svgr/webpack'],
-            }
-        ]
-
-    }
-
+  },
 };
