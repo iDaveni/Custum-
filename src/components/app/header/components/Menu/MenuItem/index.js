@@ -1,14 +1,20 @@
-import React from "react"
-import style from './style.module.scss'
+import React from "react";
+import Styles from "./style.module.scss";
+import { Link, NavLink } from "react-router-dom";
+
 class MenuItem extends React.Component {
-    render() {
-        return(
-<div>
-<div ><a className={style.item} href=''>{this.props.title}</a></div>
-</div>
-        )
-    }
-};
-export default MenuItem
+  getClass = (state) => {
+    return Styles.item + (state.isActive ? ` ${Styles.active}` : "");
+  };
 
-
+  render() {
+    return (
+      <div>
+        <NavLink className={this.getClass} to={this.props.to}>
+          {this.props.title}
+        </NavLink>
+      </div>
+    );
+  }
+}
+export default MenuItem;

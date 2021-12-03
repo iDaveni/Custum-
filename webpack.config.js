@@ -15,6 +15,10 @@ module.exports = {
       directory: path.join(__dirname, "public"),
     },
     open: true,
+    port: 3000,
+    historyApiFallback: {
+      index: "index.html",
+    },
   },
 
   optimization: {
@@ -34,8 +38,8 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
       {
-        test: /\.svg$/,
-        use: ["@svgr/webpack"],
+        test: /\.(png|svg|jpg|jpeg|gif|mp4)$/i,
+        type: "asset/resource",
       },
     ],
   },
@@ -43,6 +47,8 @@ module.exports = {
     alias: {
       components: path.resolve(__dirname, "src/components"),
       hoc: path.resolve(__dirname, "src/HOC"),
+      asset: path.resolve(__dirname, "src/asset"),
+      pages: path.resolve(__dirname, "src/pages"),
     },
   },
 };

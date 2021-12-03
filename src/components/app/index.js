@@ -4,6 +4,7 @@ import Content from "./Content";
 import Footer from "./Footer";
 import styles from "../app/style.module.scss";
 
+
 class App extends React.Component {
   render() {
     return (

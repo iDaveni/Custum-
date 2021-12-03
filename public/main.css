@@ -1,4 +1,276 @@
+/*!**************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/header/style.module.scss ***!
+  \**************************************************************************************************************************************/
+.pRyEwQnYz7tfyPa7a30Y {
+  height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rl2SGltBQIardGOvvTdK {
+  width: 200px;
+  min-width: 200px;
+  height: auto;
+  display: block;
+  margin-right: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+/*!***************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/header/components/Menu/MenuItem/style.module.scss ***!
+  \***************************************************************************************************************************************************************/
+.pQGpKXsfceZlcBxXbvTd {
+  color: #ffffff;
+  font-weight: 600;
+  margin-right: 15px;
+  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  position: relative;
+}
+
+.pQGpKXsfceZlcBxXbvTd::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #fbdc0c;
+  -webkit-box-shadow: inset 0px -1px 0px 0px #fbdc0c;
+  -moz-box-shadow: inset 0px -1px 0px 0px #fbdc0c;
+  box-shadow: inset 0px -1px 0px 0px #fbdc0c;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.pQGpKXsfceZlcBxXbvTd:hover::after {
+  opacity: 1;
+  bottom: -1px;
+}
+
+.rHeBgmNaIkDO0B7uCTn3 {
+  border-bottom: 1px solid #fbdc0c;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: inset 0px -1px 0px 0px #fbdc0c;
+  -moz-box-shadow: inset 0px -1px 0px 0px #fbdc0c;
+  box-shadow: inset 0px -1px 0px 0px #fbdc0c;
+  left: 0;
+  bottom: 20%;
+}
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/header/components/Menu/style.module.scss ***!
+  \******************************************************************************************************************************************************/
+.rJnf0wHXgAexjvoKrZv6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+/*!********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/header/components/Number/style.module.scss ***!
+  \********************************************************************************************************************************************************/
+.CwR0gXLRG2KZXZGdw4zg {
+  display: flex;
+  flex-direction: column;
+}
+
+.OHcPXHu9MUWyI0HbZXvW {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #fbdc0c;
+  box-shadow: inset 0px -1px 0px 0px #fbdc0c;
+  -webkit-box-shadow: inset 0px -1px 0px 0px #fbdc0c;
+}
+
+.ijbhsGkfGlG9ZmzH8vaA {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+/*!****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/NewsList/style.module.scss ***!
+  \****************************************************************************************************************************************/
+.oVFp50imHGkNE7clnrv5 {
+  display: flex;
+  padding: 15px;
+  text-align: center;
+  max-width: 500px;
+}
+
+.zctSIbtokUZBDxdLavn9 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  border: 1px solid yellow;
+  padding: 10px;
+}
+
+.yBStEvenqfc9AFwdcyqK {
+  margin-bottom: 10px;
+}
+
+.vUaTVGrM6T_oDI8W1SNG {
+  margin-bottom: 10px;
+}
+
+.Rs4USEM1_IT8SDeTtC_2 {
+  margin-right: 100px;
+  border: 1px solid red;
+  background-color: black;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  max-height: 100%;
+  height: 200px;
+}
+/*!***************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Form/button/style.module.scss ***!
+  \***************************************************************************************************************************************/
+.NhOcimNy25UVffXJtiaQ {
+  width: 100%;
+  height: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  -webkit-appearance: none;
+  color: white;
+  background-color: #a71717;
+  border: none;
+}
+/*!**************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Form/input/style.module.scss ***!
+  \**************************************************************************************************************************************/
+.YdTOKtZLkVfR9X6X7pOz {
+  height: 50px;
+  padding: 0 18px;
+  margin-bottom: 20px;
+}
+
+.kDrbSq05iX9FYVS3Ih6x {
+  border: 1px solid red;
+}
+/*!***************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/Content/style.module.scss ***!
+  \***************************************************************************************************************************************/
+.VKDQJvlVXva9TOO6yRB3 {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*!************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/Content/components/Users/components/List/style.module.scss ***!
+  \************************************************************************************************************************************************************************/
+.IPJ3hR8oQzroMr1OuurK {
+  margin: 30px auto;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 500px;
+}
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/Content/components/Users/components/List/components/UserItem/style.module.scss ***!
+  \********************************************************************************************************************************************************************************************/
+.eLdv3kuVckCk7DCPPlas {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.eLdv3kuVckCk7DCPPlas:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/Content/components/HomeWork/components/LeftSide/style.module.scss ***!
+  \*******************************************************************************************************************************************************************************/
+.C3pGLHN3C5vVSR3R8AS4 {
+  width: 250px;
+  height: 300px;
+  border: 2px solid #43437e;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wNSlhsZ6uHIbDiYADV3r {
+  color: #43437e;
+  margin-bottom: 20px;
+}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/Content/components/HomeWork/components/RightSide/style.module.scss ***!
+  \********************************************************************************************************************************************************************************/
+.ApKB4RPdzrvH4wpiU_nF {
+  width: 250px;
+  height: 300px;
+  border: 2px solid #43437e;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.TYJuueN8jvjK9BPrIRPW {
+  color: #43437e;
+  margin-bottom: 20px;
+}
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/Content/components/HomeWork/style.module.scss ***!
+  \***********************************************************************************************************************************************************/
+.MDxpE3qUcY1Ci1memQlb {
+  width: 600px;
+  height: 400px;
+  border: 2px solid #43437e;
+  color: #43437e;
+  padding: 10px;
+}
+
+.kKKIkz0jYEESQBiGdm6r {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/*!*******************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/HomePage/style.module.scss ***!
+  \*******************************************************************************************************************************/
+.OIYM6FmzX9qwsVnf8dYx {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.d6ijOlYHrQ7nRZWFLfU5 {
+  margin-bottom: 10px;
+}
+
+.d6ijOlYHrQ7nRZWFLfU5:last-child {
+  margin-bottom: 0;
+}
+/*!**************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/Footer/style.module.scss ***!
+  \**************************************************************************************************************************************/
+.RzTyQYJx3j0frC9ZJKxD {
+  background-color: royalblue;
+  padding: 15px;
+}
+/*!*******************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/style.module.scss ***!
+  \*******************************************************************************************************************************/
+.gyOjQ2K4jvubFTn6eAdp {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 /*!***************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss ***!
   \***************************************************************************************************************/
-
+body {
+  margin: 0;
+}
