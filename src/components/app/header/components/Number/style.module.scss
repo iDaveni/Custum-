@@ -1,0 +1,18 @@
+.number {
+  display: flex;
+  flex-direction: column;
+}
+
+.num {
+  color: #ffffff ;
+  text-decoration: none;
+  border-bottom: 1px solid #fbdc0c;
+  box-shadow: inset 0px -1px 0px 0px #fbdc0c;
+  -webkit-box-shadow: inset 0px -1px 0px 0px #fbdc0c;
+}
+
+.span {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;   
+}

@@ -1,0 +1,31 @@
+.pre {
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid black;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

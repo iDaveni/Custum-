@@ -1,9 +1,18 @@
-import match, { sum, mul } from './helpers/mach';
-import { mulStr } from './helpers/hello';
-import './style/style.scss';
+import ReactDom from "react-dom";
+import React from "react";
+import App from "./components/app";
+import "./style/style.scss";
+import { BrowserRouter } from "react-router-dom";
+import store from "./redux";
+import { Provider } from "react-redux";
 
-console.log(sum(2, 2));
-console.log(mul(3, 2));
+const element = document.querySelector("#root");
 
-console.log(mulStr('hello', 5));
-match();
+ReactDom.render(
+  <BrowserRouter>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </BrowserRouter>,
+  element
+);
